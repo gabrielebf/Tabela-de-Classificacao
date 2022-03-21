@@ -1,0 +1,130 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: center;
+  text-height: 1;
+  color: #9400d3;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: #8b008b;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+input {
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #ba55d3;
+  border-radius: 15px;
+  background-color: #0e1921;
+}
+
+input:hover {
+  border: 1px solid #8b008b;
+  box-shadow: 1px 1px 5px 1px #8b008b;
+}
+
+.button {
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: #dda0dd;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 5px 1px #8b008b;
+}
+
+.button:active {
+  transition: 0.3s;
+  background-color: #b223dd;
+}
+
+.actions {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: #9d4cb6;
+}
+
+.actions:hover {
+  box-shadow: 1px 1px 5px 1px #ff6673;
+}
+.actions:active {
+  transition: 0.3s;
+  background-color: #6d3ac3;
+  transform: translateY(2px);
+}
+
+.zerar {
+  position: relative;
+  top: 25px;
+  left: 475px;
+}
